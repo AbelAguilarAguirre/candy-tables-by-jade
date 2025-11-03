@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 :root {
-    --background: #fff9f4;
-    --foreground: #f7e6d4;
-    --ptext: #2b1e1a;
-    --htext: #fad8e5;
+    --foreground: #e7c38d;
+    --background: #f5d7e3;
+    --ptext: #000000;
+    --htext: #000000;
 }
 
 @theme inline {
@@ -27,7 +27,7 @@ body {
 
 a {
     color: var(--ptext);
-    box-shadow: var(--htext) 0px 3px 15px 1px;
+    box-shadow: var(--htext) 0px 0px 1px 1px;
     text-decoration: none;
     border-radius: 50px;
     padding: 12px 24px;
