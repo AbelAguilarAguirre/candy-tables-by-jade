@@ -9,16 +9,13 @@ export default function Home() {
     return (
         <div className="flex min-h-screen items-center justify-center bg-background font-sans dark:bg-black">
             <main className="flex min-h-screen w-full max-w-3xl flex-col items-center py-8  dark:bg-black ">
-                <div className="w-full flex flex-col items-center gap-6 text-center ">
+                <div className="w-full flex flex-col items-center text-center pb-8">
                     <Image
                         src="/logo.webp"
                         alt="Logo for Candy Tables By Jade"
-                        width={100}
-                        height={100}
+                        width={200}
+                        height={200}
                     />
-                    <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight mb-6 text-black dark:text-white">
-                        Candy Tables By Jade
-                    </h1>
                 </div>
                 <div className="w-60 flex flex-col gap-4 text-base font-medium sm:w-72 md:w-96">
                     <LinkButton
