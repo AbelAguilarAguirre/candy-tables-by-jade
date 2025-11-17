@@ -15,6 +15,7 @@ export default function Home() {
                         alt="Logo for Candy Tables By Jade"
                         width={200}
                         height={200}
+                        priority
                     />
                 </div>
                 <div className="w-60 flex flex-col gap-4 text-base font-medium sm:w-72 md:w-96">
