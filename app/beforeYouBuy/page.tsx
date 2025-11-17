@@ -4,7 +4,7 @@ import LinkButton from "../Components/LinkButton";
 export default function BeforeYouBuy() {
     return (
         <div className="flex min-h-screen items-center justify-center bg-background font-sans dark:bg-black">
-            <main className="flex min-h-screen w-full max-w-3xl flex-col items-center py-8 px-12 dark:bg-black ">
+            <main className="flex min-h-screen w-full max-w-3xl flex-col items-center py-8 px-5 dark:bg-black ">
                 <div className="w-full flex flex-row items-center gap-6 text-center justify-center ">
                     <Image
                         src="/logo.webp"
@@ -13,7 +13,7 @@ export default function BeforeYouBuy() {
                         height={50}
                         style={{ marginBottom: 24 }}
                     />
-                    <h1 className="max-w-md text-3xl font-semibold leading-10 tracking-tight dark:text-white mb-6">
+                    <h1 className="max-w-md text-3xl font-semibold leading-10 grow tracking-tight dark:text-white mb-6">
                         ♡Before You Order♡
                     </h1>
                 </div>
