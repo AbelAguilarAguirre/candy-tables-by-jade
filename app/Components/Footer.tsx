@@ -3,7 +3,9 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <footer className="w-full border-t py-6 text-center text-sm bg-foreground dark:bg-black">
-            <p>Candy Tables By Jade. All rights reserved.</p>
+            <p className="dark:text-white">
+                Candy Tables By Jade. All rights reserved.
+            </p>
             <br />
             <Link
                 href="https://github.com/AbelAguilarAguirre"

@@ -45,7 +45,6 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--htext);
     font-family: var(--header-font);
 }
 h2 {
@@ -55,14 +54,6 @@ h2 {
 p {
     font-family: var(--paragraph-font);
 }
-#headerDesc {
-    font-size: 1rem;
-    margin-top: -15px;
-    width: 100%;
-    text-align: center;
-    padding-bottom: 5px;
-    background-color: var(--background);
-}
 
 hr {
     border: none;
@@ -70,4 +61,9 @@ hr {
     background-color: var(--htext);
     margin: 10px 0;
     width: 100vw;
+}
+@media (prefers-color-scheme: dark) {
+    hr {
+        background-color: var(--pinkbg);
+    }
 }

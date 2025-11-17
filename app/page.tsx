@@ -16,7 +16,7 @@ export default function Home() {
                         width={100}
                         height={100}
                     />
-                    <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-foreground dark:text-zinc-50 mb-6">
+                    <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight mb-6 text-black dark:text-white">
                         Candy Tables By Jade
                     </h1>
                 </div>
