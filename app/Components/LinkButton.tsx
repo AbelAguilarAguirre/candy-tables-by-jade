@@ -11,7 +11,6 @@ export default function LinkButton({
         <div>
             <a
                 href={href}
-                target="_blank"
                 rel="noopener noreferrer"
                 className="relative flex h-14 w-full items-center rounded-full bg-foreground px-5"
             >

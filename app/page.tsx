@@ -1,6 +1,9 @@
 import Image from "next/image";
 import LinkButton from "./Components/LinkButton";
-import { Instagram, Info, Candy, ReceiptText, PartyPopper } from "lucide-react";
+import { Info, ReceiptText } from "lucide-react";
+import { MdOutlineTableBar } from "react-icons/md";
+import { RiCake3Line } from "react-icons/ri";
+import { SiInstagram } from "react-icons/si";
 
 export default function Home() {
     return (
@@ -21,23 +24,27 @@ export default function Home() {
                     <LinkButton
                         href="https://www.instagram.com/candytablesbyjade/?hl=en"
                         text="Instagram"
-                        SvgIcon={<Instagram className="h-7 w-7 text-current" />}
+                        SvgIcon={
+                            <SiInstagram className="h-7 w-7 text-current" />
+                        }
                     />
                     <LinkButton
-                        href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+                        href="/beforeYouBuy"
                         text="Before You Order"
                         SvgIcon={<Info className="h-7 w-7 text-current" />}
                     />
                     <LinkButton
                         href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
                         text="Treats & Bundles"
-                        SvgIcon={<Candy className="h-7 w-7 text-current" />}
+                        SvgIcon={
+                            <RiCake3Line className="h-7 w-7 text-current" />
+                        }
                     />
                     <LinkButton
                         href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
                         text="Display Setups"
                         SvgIcon={
-                            <PartyPopper className="h-7 w-7 text-current" />
+                            <MdOutlineTableBar className="h-7 w-7 text-current" />
                         }
                     />
                     <LinkButton
