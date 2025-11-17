@@ -17,14 +17,16 @@ export default function BeforeYouBuy() {
                         ♡Before You Order♡
                     </h1>
                 </div>
-                <h2>Pickup in Oceanside, CA</h2>
+                <h2 className="w-[100vw] bg-foreground">
+                    Pickup in Oceanside, CA
+                </h2>
                 <p>
                     Hours for pickup <br /> Wednesday-Friday: 10 AM - 8 PM
                     <br /> Saturday 9am-12pm <br /> Sunday CLOSED <br />
                     If you need treats for Sunday. <br /> We can arrange pickup
                     for Saturday evening.
                 </p>
-                <h2>Deposit</h2>
+                <h2 className="w-[100vw] bg-foreground">Deposit</h2>
                 <p>
                     50% is required to book. <br />
                     Forms of payment are PayPal, Venmo, and Zelle.
@@ -33,13 +35,13 @@ export default function BeforeYouBuy() {
                     <br /> Remaining balance is due at pickup- please bring cash
                     or your payment app ready.
                 </p>
-                <h2>Cancellations</h2>
+                <h2 className="w-[100vw] bg-foreground">Cancellations</h2>
                 <p>
                     Deposits are Non-Refundable,
                     <br /> but may be applied as credit toward a future event
                     within a 12 month period.
                 </p>
-                <h2>Changes</h2>
+                <h2 className="w-[100vw] bg-foreground">Changes</h2>
                 <p>
                     We don't offer substitutions for treat bundles, but you can
                     always add a little extra sweetness from our menu or create
@@ -48,7 +50,7 @@ export default function BeforeYouBuy() {
                     your event.
                     <br /> Due to availability, not all changes are guaranteed.
                 </p>
-                <h2>Pickups</h2>
+                <h2 className="w-[100vw] bg-foreground">Pickups</h2>
                 <p>
                     Please be on time for pickup. <br />
                     If you are running late let us know ahead of time. <br />A
@@ -56,7 +58,7 @@ export default function BeforeYouBuy() {
                     past your scheduled pickup time without any PRIOR
                     communication.
                 </p>
-                <h2>Disclaimer</h2>
+                <h2 className="w-[100vw] bg-foreground">Disclaimer</h2>
                 <p>
                     All items are made in a kitchen that may come in contact
                     with nuts, dairy, or gluten.

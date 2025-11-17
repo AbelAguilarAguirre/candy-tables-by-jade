@@ -2,9 +2,9 @@
 @import "tailwindcss";
 
 :root {
-    --foreground: #e7c38d;
+    --foreground: #e7c38da6;
     --background: #f5d7e3;
-    --ptext: #000000;
+    --pinkbg: #f4a7b9;
     --htext: #000000;
 
     --header-font: "Aladin", cursive;
@@ -16,6 +16,7 @@
     --color-foreground: var(--foreground);
     --font-sans: var(--font-geist-sans);
     --font-mono: var(--font-geist-mono);
+    --pinkbg: var(--pinkbg);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -48,12 +49,25 @@ h6 {
     font-family: var(--header-font);
 }
 h2 {
-    font-size: 1.5rem;
-    background-color: var(--foreground);
-    padding: 5px;
-    width: 100vw;
+    font-size: 2rem;
     text-align: center;
 }
 p {
     font-family: var(--paragraph-font);
+}
+#headerDesc {
+    font-size: 1rem;
+    margin-top: -15px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+    background-color: var(--background);
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: var(--htext);
+    margin: 10px 0;
+    width: 100vw;
 }

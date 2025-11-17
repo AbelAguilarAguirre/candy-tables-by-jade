@@ -8,7 +8,7 @@ import { SiInstagram } from "react-icons/si";
 export default function Home() {
     return (
         <div className="flex min-h-screen items-center justify-center bg-background font-sans dark:bg-black">
-            <main className="flex min-h-screen w-full max-w-3xl flex-col items-center py-8 px-12 dark:bg-black ">
+            <main className="flex min-h-screen w-full max-w-3xl flex-col items-center py-8  dark:bg-black ">
                 <div className="w-full flex flex-col items-center gap-6 text-center ">
                     <Image
                         src="/logo.webp"
@@ -34,7 +34,7 @@ export default function Home() {
                         SvgIcon={<Info className="h-7 w-7 text-current" />}
                     />
                     <LinkButton
-                        href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+                        href="/treatsAndBundles"
                         text="Treats & Bundles"
                         SvgIcon={
                             <RiCake3Line className="h-7 w-7 text-current" />
