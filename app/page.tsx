@@ -7,8 +7,8 @@ import { SiInstagram } from "react-icons/si";
 
 export default function Home() {
     return (
-        <div className="flex min-h-screen items-center justify-center bg-background font-sans dark:bg-black">
-            <main className="flex min-h-screen w-full max-w-3xl flex-col items-center py-8  dark:bg-black ">
+        <div className="flex min-h-screen items-center justify-center bg-background font-sans ">
+            <main className="flex min-h-screen w-full max-w-3xl flex-col items-center py-8   ">
                 <div className="w-full flex flex-col items-center text-center pb-8">
                     <Image
                         src="/logo.webp"
