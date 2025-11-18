@@ -19,14 +19,14 @@ export default function BeforeYouBuy() {
                 <h2 className="w-[100vw] bg-foreground">
                     Pickup in Oceanside, CA
                 </h2>
-                <p className="p-2 mb-2 bg-background">
+                <p className="p-2 mb-2 bg-background w-full">
                     Hours for pickup <br /> Wednesday-Friday: 10 AM - 8 PM
                     <br /> Saturday 9am-12pm <br /> Sunday CLOSED <br />
                     If you need treats for Sunday. <br /> We can arrange pickup
                     for Saturday evening.
                 </p>
                 <h2 className="w-[100vw] bg-foreground">Deposit</h2>
-                <p className="p-2  mb-2 bg-background">
+                <p className="p-2 mb-2 bg-background">
                     50% is required to book. <br />
                     Forms of payment are PayPal, Venmo, and Zelle.
                     <br /> Please note: there is a 3% transaction fee added with
