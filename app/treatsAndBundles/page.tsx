@@ -3,8 +3,8 @@ import LinkButton from "../Components/LinkButton";
 
 export default function BeforeYouBuy() {
     return (
-        <div className="flex min-h-screen items-center justify-center  font-sans ">
-            <main className="flex min-h-screen w-full max-w-3xl flex-col items-center bg-[url(/treatsBackground.jpg)] bg-scroll bg-contain">
+        <div className="flex min-h-screen items-center justify-center  font-sans bg-[url(/treatsBackground.jpg)] bg-scroll bg-contain">
+            <main className="flex min-h-screen w-full max-w-3xl flex-col items-center ">
                 <div className="w-full flex flex-row gap-6 justify-center items-center bg-foreground p-4">
                     <Image
                         src="/logo.webp"
