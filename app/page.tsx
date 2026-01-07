@@ -39,7 +39,7 @@ export default function Home() {
                         }
                     />
                     <LinkButton
-                        href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+                        href="/displaySetups"
                         text="Display Setups"
                         SvgIcon={
                             <MdOutlineTableBar className="h-7 w-7 text-current" />
