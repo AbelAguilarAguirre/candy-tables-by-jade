@@ -24,7 +24,7 @@ export default function DisplaySetups() {
                 </h2>
                 <div className="flex flex-col gap-2 flex-wrap justify-evenly">
                     <div className="w-[100vw]">
-                        <div className="flex flex-row flex-wrap bg-foreground px-4 py-2 text-center justify-evenly gap-2">
+                        <div className="flex flex-col flex-wrap bg-foreground px-4 py-2 text-center justify-evenly gap-2">
                             <p className=" px-3">
                                 Need a beautiful setup for your treats?
                                 <br />
@@ -34,47 +34,22 @@ export default function DisplaySetups() {
                                 <br /> Available in Gold or White
                                 <br />
                                 <br />
+                            </p>
+                            <p className="text-lg px-4 py-2">
                                 7-Piece Set (fits Small bundle) $50
                                 <br />
                                 10-Piece Set (fits Classic bundle) $65
                                 <br />
                                 14-Piece Set (fits Deluxe bundle) $85
                                 <br />
+                            </p>
+                            <p className="text-left m-auto px-4 py-2">
                                 Included with rental:
                                 <br /> ♡ Standard folding table
                                 <br /> ♡ Elegant Fabrics
                                 <br /> ♡ Matching Tablecloth Table skirt
                                 (optional)
                                 <br /> ♡ Complete aesthetic setup Full Cleanup
-                            </p>
-                        </div>
-                        <Image
-                            className="rounded-sm outline-5 outline-black m-auto my-5 max-w-9/10"
-                            src="/cart1.jpg"
-                            alt="Dessert Cart Setup 1"
-                            width={600}
-                            height={400}
-                        />
-                        <Image
-                            className="rounded-sm outline-5 outline-black m-auto my-5 max-w-9/10"
-                            src="/cart2.jpg"
-                            alt="Dessert Cart Setup 2"
-                            width={600}
-                            height={400}
-                        />
-                        <Image
-                            className="rounded-sm outline-5 outline-black m-auto my-5 max-w-9/10"
-                            src="/cart3.jpg"
-                            alt="Dessert Cart Setup 3"
-                            width={600}
-                            height={400}
-                        />
-                        <div className="flex flex-row flex-wrap bg-foreground px-4 py-2 text-left justify-evenly gap-2">
-                            <p className=" px-3">
-                                Wooden signs available:
-                                <br /> ♡ Oh baby <br />♡ Baby in bloom <br />♡
-                                we can bearly wait <br />♡ Sweet 16 <br />♡
-                                Happy Birthday <br />♡ Congrats Grad
                             </p>
                         </div>
                     </div>
