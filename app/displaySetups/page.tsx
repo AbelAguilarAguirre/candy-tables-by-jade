@@ -29,12 +29,12 @@ export default function DisplaySetups() {
                                 $130 for the day <br />
                                 Delivery fee varies based on zip code. <br />
                                 <br />
-                                Dessert Cart Rental includes: <br />~ Wooden
-                                Sign
+                                Dessert Cart Rental includes: <br />
+                                ~ Wooden Sign
                                 <br />
-                                ~Dessert Stands (gold or white) <br />
-                                ~Candy Jars (optional) <br />
-                                ~Faux Florals (optional) <br />
+                                ~ Dessert Stands (gold or white) <br />
+                                ~ Candy Jars (optional) <br />
+                                ~ Faux Florals (optional) <br />
                                 <br />
                                 Custom vinyl decal available as add-on. <br />
                                 Price varies depending on design and size
