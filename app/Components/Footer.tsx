@@ -9,7 +9,7 @@ export default function Footer() {
                 href="https://github.com/AbelAguilarAguirre"
                 className="underline"
             >
-                Website Made by Abel
+                Website Made by Abel Aguilar
             </Link>
         </footer>
     );

@@ -53,11 +53,12 @@ export default function DisplaySetups() {
                                 <br /> ♡ Full Cleanup
                             </p>
                             <p className="text-center m-auto px-4 py-4">
-                                Delivery Only <br />
+                                For Delivery Only <br />
                                 Delivery fee varies based on zip code <br />
                                 <br />
-                                Please Note: available as an add-on ONLY with
-                                the purchase of any treat bundle.
+                                Please Note: Dessert Stand Sets available as an
+                                add-on ONLY with the purchase of any treat
+                                bundle.
                             </p>
                         </div>
                     </div>
@@ -87,6 +88,9 @@ export default function DisplaySetups() {
                                 <br />
                                 Custom vinyl decal available as add-on. <br />
                                 Price varies depending on design and size
+                            </p>
+                            <p className="text-center m-auto px-4 py-4">
+                                For Delivery Only <br />
                             </p>
                         </div>
                         <Image
