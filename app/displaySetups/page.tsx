@@ -52,6 +52,13 @@ export default function DisplaySetups() {
                                 <br /> ♡ Complete aesthetic setup
                                 <br /> ♡ Full Cleanup
                             </p>
+                            <p className="text-center m-auto px-4 py-4">
+                                Delivery Only <br />
+                                Delivery fee varies based on zip code <br />
+                                <br />
+                                Please Note: available as an add-on ONLY with
+                                the purchase of any treat bundle.
+                            </p>
                         </div>
                     </div>
                 </div>
