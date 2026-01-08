@@ -43,13 +43,14 @@ export default function DisplaySetups() {
                                 14-Piece Set (fits Deluxe bundle) $85
                                 <br />
                             </p>
-                            <p className="text-left m-auto px-4 py-2">
+                            <p className="text-left m-auto px-4 py-4">
                                 Included with rental:
                                 <br /> ♡ Standard folding table
                                 <br /> ♡ Elegant Fabrics
-                                <br /> ♡ Matching Tablecloth Table skirt
-                                (optional)
-                                <br /> ♡ Complete aesthetic setup Full Cleanup
+                                <br /> ♡ Matching Tablecloth
+                                <br /> ♡ Table skirt (optional)
+                                <br /> ♡ Complete aesthetic setup
+                                <br /> ♡ Full Cleanup
                             </p>
                         </div>
                     </div>
@@ -66,7 +67,7 @@ export default function DisplaySetups() {
                 <div className="flex flex-col gap-2 flex-wrap justify-evenly">
                     <div className="w-[100vw]">
                         <div className="flex flex-row flex-wrap bg-foreground px-4 py-2 text-left justify-evenly gap-2">
-                            <p className=" px-3">
+                            <p className="text-left m-auto px-4 py-4">
                                 $130 for the day <br />
                                 Delivery fee varies based on zip code. <br />
                                 <br />
@@ -103,7 +104,7 @@ export default function DisplaySetups() {
                             height={400}
                         />
                         <div className="flex flex-row flex-wrap bg-foreground px-4 py-2 text-left justify-evenly gap-2">
-                            <p className=" px-3">
+                            <p className="text-left m-auto px-4 py-4">
                                 Wooden signs available:
                                 <br /> ♡ Oh baby <br />♡ Baby in bloom <br />♡
                                 we can bearly wait <br />♡ Sweet 16 <br />♡
@@ -124,7 +125,7 @@ export default function DisplaySetups() {
                 <div className="flex flex-col gap-2 flex-wrap justify-evenly">
                     <div className="w-[100vw]">
                         <div className="flex flex-row flex-wrap bg-foreground px-4 py-2 text-center justify-evenly gap-2">
-                            <p className=" px-3">
+                            <p className="text-left m-auto px-4 py-4">
                                 Available as a single or a set of 2-5 <br />
                                 <br />
                                 Pricing: <br />
