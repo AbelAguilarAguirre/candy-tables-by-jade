@@ -41,25 +41,25 @@ export default function DisplaySetups() {
                             </p>
                         </div>
                         <Image
-                            src="https://placehold.co/600x400?text=Cart+Image+Placeholder"
+                            className="rounded-sm outline-5 outline-black m-auto my-5 max-w-9/10"
+                            src="/cart1.jpg"
                             alt="Dessert Cart Setup 1"
                             width={600}
                             height={400}
-                            unoptimized
                         />
                         <Image
-                            src="https://placehold.co/600x400?text=Cart+Image+Placeholder"
+                            className="rounded-sm outline-5 outline-black m-auto my-5 max-w-9/10"
+                            src="/cart2.jpg"
                             alt="Dessert Cart Setup 2"
                             width={600}
                             height={400}
-                            unoptimized
                         />
                         <Image
-                            src="https://placehold.co/600x400?text=Cart+Image+Placeholder"
+                            className="rounded-sm outline-5 outline-black m-auto my-5 max-w-9/10"
+                            src="/cart3.jpg"
                             alt="Dessert Cart Setup 3"
                             width={600}
                             height={400}
-                            unoptimized
                         />
                         <div className="flex flex-row flex-wrap bg-foreground px-4 py-2 text-left justify-evenly gap-2">
                             <p className=" px-3">
@@ -71,6 +71,10 @@ export default function DisplaySetups() {
                         </div>
                     </div>
                 </div>
+                <br />
+                <br />
+                <br />
+                <br />
                 <h2 className="bg-background ">
                     <hr />
                     ♡Party Cylinders♡
@@ -105,32 +109,32 @@ export default function DisplaySetups() {
                             </p>
                         </div>
                         <Image
-                            src="https://placehold.co/600x400?text=Cylinder+Image+Placeholder"
+                            className="rounded-sm outline-5 outline-black m-auto my-5 max-w-9/10"
+                            src="/cylinder1.jpg"
                             alt="Cylinder Setup 1"
                             width={600}
                             height={400}
-                            unoptimized
                         />
                         <Image
-                            src="https://placehold.co/600x400?text=Cylinder+Image+Placeholder"
+                            className="rounded-sm outline-5 outline-black m-auto my-5 max-w-9/10"
+                            src="/cylinder2.jpg"
                             alt="Cylinder Setup 2"
                             width={600}
                             height={400}
-                            unoptimized
                         />
                         <Image
-                            src="https://placehold.co/600x400?text=Cylinder+Image+Placeholder"
+                            className="rounded-sm outline-5 outline-black m-auto my-5 max-w-9/10"
+                            src="/cylinder3.jpg"
                             alt="Cylinder Setup 3"
                             width={600}
                             height={400}
-                            unoptimized
                         />
                         <Image
-                            src="https://placehold.co/600x400?text=Cylinder+Image+Placeholder"
+                            className="rounded-sm outline-5 outline-black m-auto my-5 max-w-9/10"
+                            src="/cylinder4.jpg"
                             alt="Cylinder Setup 4"
                             width={600}
                             height={400}
-                            unoptimized
                         />
                     </div>
                 </div>
