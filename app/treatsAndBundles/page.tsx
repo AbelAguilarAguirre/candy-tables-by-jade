@@ -29,7 +29,7 @@ export default function BeforeYouBuy() {
                             12 Strawberries <br />
                             12 Cheesecake Shooters
                         </p>
-                        <h2 className="py-0 bg-background">$155</h2>
+                        <h2 className="py-0 bg-background">$160</h2>
                         <p className="text-center bg-background">
                             2-3 colors <br />
                             sprinkles or shimmer
@@ -73,7 +73,7 @@ export default function BeforeYouBuy() {
                             24 Strawberries <br />
                             24 Cheesecake Shooters
                         </p>
-                        <h2 className="py-0 bg-background">$310</h2>
+                        <h2 className="py-0 bg-background">$315</h2>
                         <p className="text-center bg-background">
                             2-3 colors <br />
                             sprinkles or shimmer
@@ -95,7 +95,7 @@ export default function BeforeYouBuy() {
                             36 Strawberries <br />
                             48 Cheesecake Shooters
                         </p>
-                        <h2 className="py-0 bg-background">$500</h2>
+                        <h2 className="py-0 bg-background">$525</h2>
                         <p className="text-center bg-background">
                             2-4 colors <br />
                             sprinkles or shimmer
@@ -121,7 +121,7 @@ export default function BeforeYouBuy() {
                     <hr />
                 </h2>
                 <p className="bg-background w-full p-2 mb-2 text-center text-xl">
-                    Add-ons OR Build your own Bundle
+                    Build your own Bundle ($75 Minimum)
                 </p>
                 <div className="flex flex-col gap-2 flex-wrap justify-evenly">
                     <div className="w-[100vw]">
